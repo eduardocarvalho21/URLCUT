@@ -1,9 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/api/urls",                    "destination": "/api/urls" },
-    { "source": "/api/urls/:slug/analytics",    "destination": "/api/analytics" },
-    { "source": "/api/urls/:slug",              "destination": "/api/url" },
-    { "source": "/:slug",                       "destination": "/api/redirect" },
-    { "source": "/",                            "destination": "/index.html" }
-  ]
-}
